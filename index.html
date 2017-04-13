@@ -82,8 +82,7 @@
 // with simple marker styling: blue circles
 // register your own Socrata app token at https://dev.socrata.com/register
 // Connecticut School Directory, CT Open Data, https://data.ct.gov/resource/v4tt-nt9n
-$.getJSON("https://data.ct.gov/resource/4hdk-qyey.geojson?&$$app_token=
-mLsPTKO8Rqy5ucJHSyHTFlX8d", function (data){
+$.getJSON("https://data.ct.gov/resource/4hdk-qyey.geojson?&$$app_token=mLsPTKO8Rqy5ucJHSyHTFlX8d", function (data){
   var geoJsonLayer = L.geoJson(data, {
     pointToLayer: function( feature, latlng) {
       var circle = L.circleMarker(latlng, {
