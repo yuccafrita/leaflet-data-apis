@@ -2,7 +2,7 @@
 Leaflet map with multiple API data feeds from USGS, Socrata, Esri ArcGIS Online
 
 ## Demo
-https://jackdougherty.github.io/leaflet-data-apis/index.html
+https://yuccafrita.github.io/leaflet-data-apis/
 
 ## Learn more at
 
